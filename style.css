@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Satisfy&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+body {
+  font-size: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+
+
+}
+
+/* Imagens pag 1 */
+.conteudo-principal-imagem-2 {
+  width: 155px;
+  height: 125px;
+  border-radius: 50%;
+  /* border: 0.4px solid darkred; */
+}
+
+.conteudo-principal-imagem {
+  width: 400px;
+  height: 400px;
+}
+
+
+.cabecalho-item {
+
+  display: flex;
+  gap: 32px;
+  color: darkred;
+  font-weight: 400px;
+  font-size: 30px;
+  font: bold;
+  font-family: 'Instrument Serif', serif;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.6px solid darkred;
+  margin: auto;
+  max-width: 900px;
+
+
+}
+
+/* .conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+  .conteudo-principal-escrito{
+  display: flex;
+  flex-direction: coloum;
+  gap: 32px;
+} */
+
+.conteudo-principal-escrito {
+  text-align: center;
+}
+
+
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: red;
+  padding-top: 64px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-principal-escrito-historia {
+  font-family: 'Instrument Serif', serif;
+  font-size: 25px;
+}
+
+#rodape {
+  border-top: 0.6px solid darkred;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.contato {
+  border-top: 0.6px solid darkred;
+  font-family: 'Instrument Serif', serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#textcont {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 120px;
+  color: red;
+}
+
+.Quemsomos {
+  border-top: 0.6px solid darkred;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+#Quemsomos {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 75px;
+  color: red;
+  text-align: center;
+}
+
+.menu {
+  border-top: 0.6px solid darkred;
+  text-align: center;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+#titulodocardapio {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 75px;
+  color: red;
+  line-height: 125px;
+}
+
+.letras {
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
+  color: darkred;
+
+}
+
+#maryejosy {
+  font-family: 'Instrument Serif', serif;
+  font-size: 15px;
+}
+
+.images img {
+  width: 700px;
+  max-width: 350px;
+  /* Ajuste o valor conforme necessário */
+  gap: 5px;
+  margin: 10px;
+}
+
+.images {
+  display: flex;
+  justify-content: row;
+}
+
+.estilo {
+  border-top: 0.6px solid darkred;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 75px;
+  color: red;
+  line-height: 125px;
+}
